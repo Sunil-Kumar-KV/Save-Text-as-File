@@ -39,7 +39,6 @@ body {
 .wrapper :where(textarea, input):focus {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
-
 .wrapper textarea {
     height: 270px;
     resize: none;
@@ -47,7 +46,6 @@ body {
     font-size: 17.6px;
     border: 1px solid #ccc;
 }
-
 .wrapper .file-options {
     display: flex;
     margin-top: 10px;
@@ -62,7 +60,6 @@ body {
 .option label {
     font-size: 17px;
 }
-
 .option :where(input, .select-menu) {
     height: 50px;
     padding: 0 13px;
